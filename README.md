@@ -1,24 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h2><span style="color: #4b67a1;"><strong><span style="color: #366691; font-size: 20px; text-shadow: 4px 10px 4px #888;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="text-decoration: underline; color: #000000;">My First KIT UI</span></span></strong></span></h2>
+<p>&nbsp;Its my first KIT UI, dans im so sorry about this.</p>
+<p>xoxo</p>
