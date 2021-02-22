@@ -1,10 +1,9 @@
-/* +-----------------------+ */
-/* |      UI ━ K I T       | */
-/* +-----------------------+ */
-/* | This is my first kit  | */
-/* | ✧ Be nice ✧           | */
-/* |                By Nekå| */
-/* +-----------------------+ */
+/* +------------------------------------------------+ */
+/* |                   UI ━ K I T                   | */
+/* +------------------------------------------------+ */
+/* | This is my first kit ;)                        | */
+/* | ...........................✧ Be nice ✧ By Nekå | */
+/* +------------------------------------------------+ */
 
 
 /* +----------------------+ */
@@ -17,7 +16,6 @@
 }
 
 body {
-  font-family: ;
   font-weight: normal;
   font-style: normal;
   color: black;
@@ -30,55 +28,55 @@ body {
 /* +----------------------+ */
 
 .primary {
-  background-color: #000000;
+  background-color: #A0C4FF;
 }
 
 .text-primary {
-  color: #000000;
+  color: #ffffff;
 }
 
 .dark {
-  background-color: #000000;
+  background-color: #0b0b0b;
 }
 
 .text-dark {
-  color: #000000;
+  color: #ffffff;
 }
 
 .medium-light {
-  background-color: #000000;
+  background-color: #333333;
 }
 
 .text-medium-light {
-  color: #000000;
+  color: #333333;
 }
 
 .light {
-  background-color: #000000;
+  background-color: #dadada;
 }
 
 .text-light {
-  color: #000000;
+  color: #0b0b0b;
 }
 
 .warning {
-  background-color: #000000;
+  background-color: #FDFFB6;
 }
 
 .text-warning {
-  color: #000000;
+  color: #0b0b0b;
 }
 
 .danger {
-  background-color: #000000;
+  background-color: #FFADAD;
 }
 
 .text-danger {
-  color: #000000;
+  color: #ffffff;
 }
 
 .success {
-  background-color: #000000;
+  background-color: #CAFFBF;
 }
 
 .text-success {
@@ -86,11 +84,11 @@ body {
 }
 
 .info {
-  background-color: #000000;
+  background-color: #9BF6FF;
 }
 
 .text-info {
-  color: #000000;
+  color: #ffffff;
 }
 
 /* +----------------------+ */
@@ -104,6 +102,7 @@ h4,
 h5,
 h6 {
   font-family: "Akaya Kanadaka", sans-serif;
+  src: url();
 }
 
 p,
@@ -113,25 +112,59 @@ ul,
 li,
 ol {
   font-family: "Raleway", sans-serif;
+  src: url();
 }
 
 /* +----------------------+ */
 /* | ......BUTTONS....... | */
 /* +----------------------+ */
 
+/* Standard */
 .btn {
 color: #494949 !important;
 text-decoration: none;
 background: #ffffff;
 padding: 20px;
-border: 2px solid #494949 !important;
+border: 2px solid #dadada !important;
 display: inline-block;
 transition: all 0.4s ease 0s;
 }
 
 .btn:hover {
 color: #ffffff !important;
-background: #ffe140;
-border-color: #494949 !important;
+background: #A0C4FF;
+border-color: #dadada !important;
 transition: all 0.4s ease 0s;
 }
+
+/* Specific */
+.btn-primary {}
+.btn-primary:hover {}
+
+.btn-warning {}
+.btn-warning:hover {}
+
+.btn-danger {}
+.btn-danger:hover {}
+
+.btn-info {}
+.btn-info:hover {}
+
+.btn-sucess {}
+.btn-sucess:hover {}
+
+/* Outines btn */
+.btn-outline-primary {}
+.btn-outline-primary:hover {}
+
+.btn-outline-warning {}
+.btn-outline-warning:hover {}
+
+.btn-outline-danger {}
+.btn-outline-danger:hover {}
+
+.btn-outline-info {}
+.btn-outline-info:hover {}
+
+.btn-outline-sucess {}
+.btn-outline-sucess:hover {}
