@@ -1,0 +1,14 @@
+.centerlize {
+  width: 100%;
+  height: 35vh;
+  background-color: #A0C4FF;
+  color: white;
+  text-shadow: 1px 1px 0px #000000;
+  font-size: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container-body {
+  margin-left: 10px;
+}

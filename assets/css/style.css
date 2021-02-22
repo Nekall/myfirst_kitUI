@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
 /* +------------------------------------------------+ */
 /* |                   UI ━ K I T                   | */
 /* +------------------------------------------------+ */
 /* | This is my first kit ;)                        | */
 /* | ...........................✧ Be nice ✧ By Nekå | */
 /* +------------------------------------------------+ */
-
 
 /* +----------------------+ */
 /* | ........BASE........ | */
@@ -18,10 +20,8 @@
 body {
   font-weight: normal;
   font-style: normal;
-  color: black;
+  color: #0b0b0b;
 }
-
-
 
 /* +----------------------+ */
 /* | .......COLORS....... | */
@@ -32,7 +32,7 @@ body {
 }
 
 .text-primary {
-  color: #ffffff;
+  color: #A0C4FF;
 }
 
 .dark {
@@ -40,7 +40,7 @@ body {
 }
 
 .text-dark {
-  color: #ffffff;
+  color: #0b0b0b;
 }
 
 .medium-light {
@@ -56,7 +56,7 @@ body {
 }
 
 .text-light {
-  color: #0b0b0b;
+  color: #dadada;
 }
 
 .warning {
@@ -64,7 +64,7 @@ body {
 }
 
 .text-warning {
-  color: #0b0b0b;
+  color: #FDFFB6;
 }
 
 .danger {
@@ -72,7 +72,7 @@ body {
 }
 
 .text-danger {
-  color: #ffffff;
+  color: #FFADAD;
 }
 
 .success {
@@ -80,7 +80,7 @@ body {
 }
 
 .text-success {
-  color: #000000;
+  color: #CAFFBF;
 }
 
 .info {
@@ -88,7 +88,7 @@ body {
 }
 
 .text-info {
-  color: #ffffff;
+  color: #9BF6FF;
 }
 
 /* +----------------------+ */
@@ -101,9 +101,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Akaya Kanadaka", sans-serif;
-  src: url();
+  font-family: 'Akaya Kanadaka', Georgia, Times;
 }
+h1 {font-size: 55px}
+h2 {font-size: 50px}
+h3 {font-size: 45px}
+h4 {font-size: 40px}
+h5 {font-size: 35px}
+h6 {font-size: 30px}
 
 p,
 lead,
@@ -111,8 +116,7 @@ blockquote,
 ul,
 li,
 ol {
-  font-family: "Raleway", sans-serif;
-  src: url();
+  font-family: 'Raleway', Georgia, Times;
 }
 
 /* +----------------------+ */
@@ -123,48 +127,328 @@ ol {
 .btn {
 color: #494949 !important;
 text-decoration: none;
-background: #ffffff;
-padding: 20px;
-border: 2px solid #dadada !important;
+background: #6b6868;
+margin: 10px;
+padding: 4px 4px;
 display: inline-block;
 transition: all 0.4s ease 0s;
+cursor: pointer;
+border: 1px solid;
+border-radius: 4px;
 }
 
 .btn:hover {
 color: #ffffff !important;
-background: #A0C4FF;
-border-color: #dadada !important;
+background: #494949;
 transition: all 0.4s ease 0s;
 }
 
-/* Specific */
-.btn-primary {}
-.btn-primary:hover {}
+.btn:active {
+  transform: translate(-3px, -3px);
+}
+/* ---------- */
+/*  Specific  */
+/* ---------- */
+.btn-primary {
+  color: #ffffff !important;
+  background: #A0C4FF;
+}
+.btn-primary:hover {
+  color: #ffffff !important;
+  background: #83a2d4;
+}
 
-.btn-warning {}
-.btn-warning:hover {}
+.btn-warning {
+  color: #000000 !important;
+  background: #FDFFB6;
+  border-color: #FDFFB6 !important;
+}
+.btn-warning:hover {
+  color: #000000 !important;
+  background: #d5d69a;
+  border-color: #d5d69a !important;
+}
 
-.btn-danger {}
-.btn-danger:hover {}
+.btn-danger {
+  color: #ffffff !important;
+  background: #FFADAD;
+}
+.btn-danger:hover {
+  color: #ffffff !important;
+  background: #d28f8f;
+}
 
-.btn-info {}
-.btn-info:hover {}
+.btn-info {
+  color: #ffffff !important;
+  background: #9BF6FF;
+}
+.btn-info:hover {
+  color: #ffffff !important;
+  background: #80c9d0;
+}
 
-.btn-sucess {}
-.btn-sucess:hover {}
+.btn-success {
+  color: #ffffff !important;
+  background: #CAFFBF;
+}
+.btn-success:hover {
+  color: #ffffff !important;
+  background: #a6d19d;
+}
 
-/* Outines btn */
-.btn-outline-primary {}
-.btn-outline-primary:hover {}
+/* ---------- */
+/*  Outline   */
+/* ---------- */
+.btn-outline-primary {
+  color: #A0C4FF !important;
+  background: #ffffff;
+  border: 2px solid #A0C4FF !important;
+}
 
-.btn-outline-warning {}
-.btn-outline-warning:hover {}
+.btn-outline-primary:hover {
+  color: #ffffff !important;
+  background: #A0C4FF;
+  border-color: #A0C4FF !important;
+}
 
-.btn-outline-danger {}
-.btn-outline-danger:hover {}
+.btn-outline-warning {
+  color: #FDFFB6 !important;
+  background: #ffffff;
+  border: 2px solid #FDFFB6 !important;
+}
+.btn-outline-warning:hover {
+  color: #000000 !important;
+  background: #FDFFB6;
+  border-color: #FDFFB6 !important;
+}
 
-.btn-outline-info {}
-.btn-outline-info:hover {}
+.btn-outline-danger {
+  color: #FFADAD !important;
+  background: #ffffff;
+  border: 2px solid #FFADAD !important;
+}
 
-.btn-outline-sucess {}
-.btn-outline-sucess:hover {}
+.btn-outline-danger:hover {
+  color: #ffffff !important;
+  background: #FFADAD;
+  border-color: #FFADAD !important;
+}
+
+.btn-outline-info {
+  color: #9BF6FF !important;
+  background: #ffffff;
+  border: 2px solid #9BF6FF !important;
+}
+
+.btn-outline-info:hover {
+  color: #ffffff !important;
+  background: #9BF6FF;
+  border-color: #9BF6FF !important;
+}
+
+.btn-outline-success {
+  color: #CAFFBF !important;
+  background: #ffffff;
+  border: 2px solid #CAFFBF !important;
+}
+
+.btn-outline-success:hover {
+  color: #ffffff !important;
+  background: #CAFFBF;
+  border-color: #CAFFBF !important;
+}
+
+.sm {
+  padding: 2px 6px;
+}
+
+.lg {
+  padding: 10px 20px;
+}
+
+  /* +----------------------+ */
+  /* |........INPUTS........| */
+  /* +----------------------+ */
+
+  /* ---------- */
+  /*   input   */
+  /* ---------- */
+input {
+  display: block;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+  /* ---------- */
+  /*   select   */
+  /* ---------- */
+select {
+
+}
+  /* ---------- */
+  /*  textarea  */
+  /* ---------- */
+textarea {
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: gray;
+  margin: 10px;
+  }
+  /* ---------- */
+  /*  btn-radio */
+  /* ---------- */
+.btn-radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.btn-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.btn-radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.btn-radio input:checked ~ .checkmark {
+  background-color: #9BF6FF;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.btn-radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/* ---------- */
+/*  checkbox  */
+/* ---------- */
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+  border-radius: 4px;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #9BF6FF;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 9px;
+  top: 2px;
+  width: 6px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  transform: rotate(45deg);
+}
+
+  /* +----------------------+ */
+  /* |.........LISTS........| */
+  /* +----------------------+ */
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+}
+
+  /* +----------------------+ */
+  /* |.........CARDS........| */
+  /* +----------------------+ */
