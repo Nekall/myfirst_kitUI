@@ -1,0 +1,137 @@
+/* +-----------------------+ */
+/* |      UI ━ K I T       | */
+/* +-----------------------+ */
+/* | This is my first kit  | */
+/* | ✧ Be nice ✧           | */
+/* |                By Nekå| */
+/* +-----------------------+ */
+
+
+/* +----------------------+ */
+/* | ........BASE........ | */
+/* +----------------------+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: ;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
+}
+
+
+
+/* +----------------------+ */
+/* | .......COLORS....... | */
+/* +----------------------+ */
+
+.primary {
+  background-color: #000000;
+}
+
+.text-primary {
+  color: #000000;
+}
+
+.dark {
+  background-color: #000000;
+}
+
+.text-dark {
+  color: #000000;
+}
+
+.medium-light {
+  background-color: #000000;
+}
+
+.text-medium-light {
+  color: #000000;
+}
+
+.light {
+  background-color: #000000;
+}
+
+.text-light {
+  color: #000000;
+}
+
+.warning {
+  background-color: #000000;
+}
+
+.text-warning {
+  color: #000000;
+}
+
+.danger {
+  background-color: #000000;
+}
+
+.text-danger {
+  color: #000000;
+}
+
+.success {
+  background-color: #000000;
+}
+
+.text-success {
+  color: #000000;
+}
+
+.info {
+  background-color: #000000;
+}
+
+.text-info {
+  color: #000000;
+}
+
+/* +----------------------+ */
+/* | ........TYPO........ | */
+/* +----------------------+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Akaya Kanadaka", sans-serif;
+}
+
+p,
+lead,
+blockquote,
+ul,
+li,
+ol {
+  font-family: "Raleway", sans-serif;
+}
+
+/* +----------------------+ */
+/* | ......BUTTONS....... | */
+/* +----------------------+ */
+
+.btn {
+color: #494949 !important;
+text-decoration: none;
+background: #ffffff;
+padding: 20px;
+border: 2px solid #494949 !important;
+display: inline-block;
+transition: all 0.4s ease 0s;
+}
+
+.btn:hover {
+color: #ffffff !important;
+background: #ffe140;
+border-color: #494949 !important;
+transition: all 0.4s ease 0s;
+}
